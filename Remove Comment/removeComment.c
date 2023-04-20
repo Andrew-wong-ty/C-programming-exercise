@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
     initBuffer(buffer);
     
     int res;
-    printf("opend: %s, formatted: %s \n", inputFile, outputFile);
+    printf("open: %s, generate file: %s \n", inputFile, outputFile);
     FILE* inputFp = fopen(inputFile,"r");
     if(inputFile==NULL) {
         printf("open file %s failed!", inputFile);
